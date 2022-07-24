@@ -1,0 +1,34 @@
+body{
+    font-family: "Audiowide", sans-serif!important;
+}
+.urunİmg{
+    text-align: center;
+}
+.cardDiv{
+margin: 10px 0px !important;
+display: flex !important;
+justify-content: center;
+}
+.card{
+    text-align: center;
+}
+.card-title{
+    color: #0a58ca;
+}
+.tl{
+    color: #0a58ca ;
+}
+.link{
+    justify-content: flex-end !important;
+}
+@media only screen and (max-width: 991px){
+    .link{
+        justify-items: flex-end !important;
+    }
+
+}
+@media only screen and (max-width: 768px){
+.card{
+    width: 100% !important;
+}
+}
