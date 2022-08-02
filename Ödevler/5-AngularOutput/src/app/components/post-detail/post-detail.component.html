@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-8 my-5">
+      <mat-card>
+        <mat-card-title>Angular İnput ve Output Örneği</mat-card-title>
+        <mat-list role="list">
+          <mat-list-item role="listitem">Kalp sayısını PostDetailComponent'ten LikeComponent'te @İnput ile görderdim</mat-list-item>
+          <mat-list-item role="listitem">Alkışa tıklandığında LikeComponent'ten PostDetailComponent'e @Output İle gönderdim</mat-list-item>
+        </mat-list>
+        <app-like [likeCount]="like" (changeLike)="clickLike()"></app-like>
+      </mat-card>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>

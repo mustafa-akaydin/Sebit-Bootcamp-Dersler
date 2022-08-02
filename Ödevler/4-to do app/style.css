@@ -1,0 +1,27 @@
+body {
+    background: #777;
+}
+::placeholder {
+  color: black !important;
+}
+.input[type="text"],
+[type="text"]:focus {
+  color: white !important;
+  border: none !important;
+  background-color: #444 !important;
+}
+
+.todos li{
+    background: #555!important;
+    color: white !important;
+}
+.delete {
+    cursor: pointer;
+}
+.filtered{
+    display: none !important;
+}
+.container{
+    display: flex;
+    justify-content:center ;
+}
